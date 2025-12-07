@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News & Events | Wacky Kar Klub</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- EXACT SAME HEADER -->
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Wacky Kar Klub Logo">
+                <h1>Wacky Kar Klub</h1>
+            </div>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="merchandise.html">Merchandise</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="news-events.html" class="active">News & Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   <section class="page-banner winter-special">
+    <div class="container">
+        <h2>Latest News & Upcoming Events</h2>
+    </div>
+</section>
+
+
+
+    <section class="container" style="padding:4rem 0;">
+        <div class="news-grid">
+            <!-- Just copy-paste this block to add more news -->
+            <article class="news-card">
+                <img src="images/events/show-2025-1.jpg" alt="Winter Special Offer">
+                <div class="news-text">
+                    <h3>Winter Special – 20% off Pre-MOT Checks!</h3>
+                    <span class="date">15 November 2025</span>
+                    <p>Book before 31st December and save!</p>
+                </div>
+            </article>
+
+            <article class="news-card">
+                <img src="images/events/rally.jpg" alt="Coastal Rally">
+                <div class="news-text">
+                    <h3>Antrim Coast Classic Rally 2025</h3>
+                    <span class="date">10 November 2025</span>
+                    <p>Save the date – Sunday 18th May 2025!</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+    <footer>
+        <div class="footer-top" style="background:#111; color:#aaa; width:100%;">
+            <div class="container footer-grid">
+                <div class="footer-col">
+                    <h4>Wacky Kar Klub</h4>
+                    <p>Northern Ireland's friendliest vintage & classic car club since 1992.</p>
+                    <p style="margin-top:1rem; font-size:2rem;">
+                        <a href="tel:02890456789" style="color:#FFD700; margin:0 15px;">📞</a>
+                        <a href="mailto:info@wackykarklub.co.uk" style="color:#FFD700; margin:0 15px;">✉️</a>
+                    </p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul style="list-style:none; padding:0;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="merchandise.html">Merchandise</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="news-events.html">News & Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Find Us</h4>
+                    <p>Unit 7, Dargan Industrial Park<br>Belfast, BT3 9JP<br>Northern Ireland</p>
+                    <p>Mon–Fri: 9am–5pm<br>Sat: 10am–2pm</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom" style="background:#000; color:#aaa; text-align:center; padding:1.5rem 0; width:100%;">
+            <p>© 2025 Wacky Kar Klub. All rights reserved. | Designed & developed by <strong>[Your Name]</strong></p>
+        </div>
+    </footer>
+<body>
+</html>
+</body>
+</html>
